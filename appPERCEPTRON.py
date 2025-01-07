@@ -4,9 +4,9 @@ import joblib
 import os
 
 # Load saved models
-model = joblib.load('../Modeling Supervised/perceptron_model.pkl')
-scaler = joblib.load('../Modeling Supervised/scaler_perceptron.pkl')
-label_encoder = joblib.load('../Modeling Supervised/label_encoder_Perceptron.pkl')
+model = joblib.load('perceptron_model.pkl')
+scaler = joblib.load('scaler_perceptron.pkl')
+label_encoder = joblib.load('label_encoder_Perceptron.pkl')
 
 # Streamlit App
 def main():
